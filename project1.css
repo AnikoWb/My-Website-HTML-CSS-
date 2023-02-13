@@ -1,0 +1,80 @@
+/* CSS Comments */
+
+
+
+
+h1 {
+color: #34ebb4;
+border-bottom: double; border-width: 20px; border-spacing: 100px;
+font-family: fantasy;
+font-size: 120pt;
+font-weight: bold
+padding: 5px;
+}
+
+h2 {
+	color: #34ebb4;
+	border-top: dotted; 
+	text-decoration: none;
+	font-family: comic sans;
+	padding-top: 10px;
+	letter-spacing: 15px;
+}
+
+p {
+	text-align: justify;
+	padding: 10px;
+	color: white;
+}
+
+
+body {
+
+background: linear-gradient(0deg, rgba(0,0,0,1) 61%, rgba(164,45,253,1) 100%);
+padding: 50px;
+color: white;
+}
+
+a {color: #00eeff; text-decoration: none; }
+a:hover {color: #0099ff;}
+
+
+div {text-align: center;}
+
+
+/* This doesn't work for some reason */
+
+
+.aniko {color: #34ebb4; font-style: italic;}
+
+.highlight2 {color: #fcff30; text-transform: uppercase;}
+
+img {width: 17%;
+	float: right;
+	border: solid;
+	border-radius: 75px 10px;
+	padding: 10px;
+}
+
+#ab {
+	align-content: center;
+border: none;
+float: none;
+border-radius: 0;
+width: 100%;
+opacity: 0.75;
+box-shadow: inset 0px 0px 40px 40px #000000;}
+
+
+#ab:hover {
+opacity: 1;
+} 
+
+
+
+footer {
+	background: black;
+	padding-top: 10px;
+display: block;
+height: 800px; 
+}
